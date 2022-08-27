@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Assalmu Alikum"
+      ],
+      "responses": [
+        "Hey!!",
+        "Hello, thanks for messaging",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Allah Hafiz"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses do you offer?",
+        "Do you Offer Health Infomatics?",
+        "Do you Offer Software Engineeering?",
+        "Do you Offer Computer Sciences?"
+
+      ],
+      "responses": [
+        "You can visit ww3.comsats.edu.pk/internationalstudents/Allprograms.aspx to view all offered programs",
+        "Please visit our website or call us at (92-51) 9049 5032-5 for details",
+        "You can get list of all offered programs from here: www.comsats.edu.pk/offices/UndergradPrograms.aspx"
+      ]
+    },
+    {
+      "tag": "campusenv",
+      "patterns": [
+        "What kind of study environment comsats provide?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We provide all kinds of snakes here"
+
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "cgpa",
+      "patterns": [
+        "Will we get  4 GPA?",
+        "Will we get pass?",
+        "What do you think about our GPA?",
+        "CGPA"
+      ],
+      "responses": [
+        "Don't Worry, You'll get A+",
+        "Mam will give you a choka! Chillll"
+      ]
+    },
+
+    {
+      "tag": "khusian",
+      "patterns": [
+        "Sach mein?",
+        "Mazak na kr bhai",
+        "Sach keh raha hay?"
+      ],
+      "responses": [
+        "Mera apka mazak hay?",
+        "Zada khush mat ho, mein sirf bot hon :( "
+      ]
+    }
+  ]
+}
